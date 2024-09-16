@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <form>
+      <h1 align="center">Student Registration Form</h1>
+      <table border="1" align="center" bgcolor="pink">
+        <tbody align="center">
+          <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" value="" placeholder="Enter Name"  /></td>
+          </tr>
+          <tr>
+            <td>Father Name</td>
+            <td><input type="text" name="fname" value="" placeholder="Enter Father Name" /></td>
+          </tr>
+          <tr>
+            <td>Personal Address</td>
+            <td><textarea name="address" rows="4" cols="20" placeholder="Enter Address...."></textarea></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" name="gender" value="Male" />Male
+              <input type="radio" name="gender" value="Female" />Female
+            </td>
+          </tr>
+          <tr>
+            <td>City</td>
+            <td>
+              <select name="City">
+                <option>Select</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Delhi</option>
+                <option>Sangli</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Course</td>
+            <td>
+              <select name="course">
+                <option>Select</option>
+                <option>MCA Sandwich</option>
+                <option>MBA</option>
+                <option>BCS</option>
+                <option>BCA</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Skill Set</td>
+            <td>
+              <input type="checkbox" name="c" value="ON" />C
+              <input type="checkbox" name="c++" value="ON" />C++
+              <input type="checkbox" name="java" value="ON" />Java
+              <input type="checkbox" name="php" value="ON" />PHP
+            </td>
+          </tr>
+
+          <tr>
+            <td>Pin Code</td>
+            <td>
+              <input type="number" name="pincode" value="" maxlength="6"  placeholder="eg.123456" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email Id</td>
+            <td><input type="text" name="emailid" value="" required  placeholder="Enter email id" /></td>
+          </tr>
+          <tr>
+            <td>DOB</td>
+            <td><input type="date" name="dob" value="" /></td>
+          </tr>
+          <tr>
+            <td>Mobile No</td>
+            <td>
+              <input type="number" name="mobno" value="" maxlength="10" placeholder="eg.1234567890" />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Submit" /></td>
+            <td><input type="reset" value="Reset" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
